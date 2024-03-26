@@ -1,0 +1,15 @@
+.icon {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
