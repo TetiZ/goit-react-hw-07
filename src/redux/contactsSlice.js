@@ -39,7 +39,7 @@ export const contacts = createSlice({
       })
       .addCase(deleteContact.fulfilled, (state, action) => {
         state.loading = false;
-        const contactId = action.payload;
+        const contactId = action.payload.id;
         state.items = state.items.filter((contact) => contact.id !== contactId);
       })
       .addCase(deleteContact.rejected, (state, action) => {
