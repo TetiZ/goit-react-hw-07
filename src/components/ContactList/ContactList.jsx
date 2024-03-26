@@ -5,6 +5,7 @@ import { selectFilteredContacts } from "../../redux/contactsSlice";
 
 export default function ContactList() {
   const filteredContacts = useSelector(selectFilteredContacts);
+  console.log(filteredContacts);
 
   return (
     <ul className={css.list}>
